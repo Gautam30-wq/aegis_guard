@@ -88,4 +88,4 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 // 👉 CRITICAL ADDITION: Export the app module so Vercel can handle the serverless runtime routing
-module.exports = app;
+export default app;
